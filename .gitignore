@@ -1,0 +1,16 @@
+# MkDocs local build output
+site/
+
+# Generated during local preview (CI builds docs/ ephemerally)
+docs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

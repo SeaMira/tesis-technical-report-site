@@ -1,0 +1,49 @@
+site_name: Technical Report — Experimentation and Results
+site_description: Long-form companion to thesis Chapter 4 (Experimentation and Results)
+# Update site_url after creating the GitHub repo (Settings → Pages).
+site_url: https://seamira.github.io/tesis-technical-report-site/
+
+repo_url: https://github.com/SeaMira/tesis-technical-report-site
+repo_name: SeaMira/tesis-technical-report-site
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - pymdownx.superfences
+  - pymdownx.details
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
