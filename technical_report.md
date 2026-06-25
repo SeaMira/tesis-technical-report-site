@@ -62,7 +62,7 @@ _Caption (Fig. 1): 268 entities_
 
 <a id="fig-2"></a>
 **Fig. 2**
-<img src="img/chapter3/grid_1C0O.png" 
+<img src="img/chapter3/grid_1c0o.png" 
      width="300" 
      height="300">
 
